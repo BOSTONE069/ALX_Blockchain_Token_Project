@@ -32,4 +32,4 @@ const getWalletBalance = async (_address) => {
   const balance = await web3.eth.getBalance(_address)
   return web3.utils.fromWei(balance, "ether")
 }
-getWalletBalance("0x8D5FFFB23e9D70F2DE92c154735022F468e6Bd16").then(console.log)
+getWalletBalance("0xe4F509254fe8e5fa65E620De7525890421Ad003f").then(console.log)
