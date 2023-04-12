@@ -1,0 +1,18 @@
+{
+  "name": "alx_blockchain_token_project",
+  "version": "1.0.0",
+  "description": "Alx Token Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bostone",
+  "license": "ISC",
+  "dependencies": {
+    "bip39": "^3.1.0",
+    "crypto-js": "^4.1.1",
+    "ipfs-http-client": "^60.0.0",
+    "package.json": "^2.0.1",
+    "web3": "^1.9.0"
+  }
+}
