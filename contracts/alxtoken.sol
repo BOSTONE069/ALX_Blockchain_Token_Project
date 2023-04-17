@@ -11,7 +11,7 @@ using SafeMath for uint256;
 
         // global Var
         string public tokenName = "ALX TOKEN";
-        string public symbol = "ALX";
+        string public symbol = "ALX COIN";
         uint public decimals = 18; // 0.000000000000000009 // 9000000000000000000
         uint public decimalFactor = 10 ** decimals; // 10^18 10^2 0.00
         uint public totalSupply = 1000000 * decimalFactor; // 0.00000000001
