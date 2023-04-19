@@ -45,7 +45,7 @@ This project was build by [Bostone Ochieng](#https://www.linkedin.com/in/bostone
 - [Alchemy](#https://auth.alchemy.com/?redirectUrl=https%3A%2F%2Fdashboard.alchemy.com)
 
 # License
-This project is licensed under the [MIT License](#https://mit-license.org/)
+This project is licensed under the [MIT License](https://mit-license.org/)
 
 
 
