@@ -45,7 +45,9 @@ This project was build by Bostone Ochieng
 - [Alchemy](#https://auth.alchemy.com/?redirectUrl=https%3A%2F%2Fdashboard.alchemy.com)
 
 # License
-This project is licensed under the [MIT License](#https://www.mit.edu/~amini/LICENSE.md)
+This project is licensed under the [MIT License](#https://mit-license.org/)
+
+
 
 <p align="center">
     <img src="mork-up.png">
