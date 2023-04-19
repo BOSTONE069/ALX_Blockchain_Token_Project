@@ -1,5 +1,5 @@
-<p>
-  <img src="1.png" alt="ALX TOKEN REPRESENATAION" />
+<p align="center">
+  <img src="1.png" alt="ALX TOKEN REPRESENTATION" >
 </p>
 
 # ALX_Blockchain_Token_Project
