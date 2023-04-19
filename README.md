@@ -37,7 +37,7 @@ or through git pull requests.
 
 # Contributions
 
-This project was build by Bostone Ochieng
+This project was build by [Bostone Ochieng](#https://www.linkedin.com/in/bostone-ochieng-b258a8108/)
 
 # Credits 
 - [Metamask](#https://metamask.io/)
