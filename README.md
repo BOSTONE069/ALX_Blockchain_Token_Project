@@ -13,7 +13,8 @@
 - [Credits](#Credits)
 - [License](#License)
 
-#Installation 
+# Installation 
+
 This project is build on Node.js serverside framework and therefor for you to run the 
 project you must have Node installed. 
 1. Run `git clone` to have the repository on the local machine 
