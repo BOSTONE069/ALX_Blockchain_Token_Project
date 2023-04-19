@@ -15,7 +15,8 @@ module.exports = {
     //sepolia network
   sepolia: {
     provider: () => new HDWalletProvider(MNEMONIC, `https://eth-sepolia.g.alchemy.com/v2/${PROJECT_ID}`),
-    network_id: 11155111,       // Sepolia id
+    network_id: 11155111, // Sepolia id
+    networkCheckTimeout: 10000,
   },
 
   mainnet: {
@@ -27,7 +28,7 @@ module.exports = {
   }
 
   },
-  
+
   compilers: {
     solc: {
       version:"^0.8.9",
