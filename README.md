@@ -24,7 +24,7 @@ project you must have Node installed.
 5. Get the Sepolia faucets through [here](#https://sepoliafaucet.com/)
 6. Create the .env file that has the PRODUCT_ID PRODUCT_ID_MAINNET got from Alchemy and MNEMONIC got from Metamask 
 7. Run `truffle compile`
-8. Run `truffle deploy --network seplia`
+8. Run `truffle deploy --network sepolia`
 9. Copy the contract address and click on import token on metamask we will have created the ALX COIN
 
 # Usage
