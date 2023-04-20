@@ -8,7 +8,6 @@
 # Table of contents
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [System Architecture](#System Architecture)
 - [Troubleshooting](#Troubleshooting)
 - [Contributions](#Contributions)
 - [Credits](#Credits)
