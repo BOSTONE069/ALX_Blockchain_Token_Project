@@ -27,7 +27,7 @@ using SafeMath for uint256;
             balanceOf[msg.sender] = totalSupply;
         }
 
-
+        //  function transfer
         function transfer(address _to, uint256 _value) public returns (bool success) {
             require(balanceOf[msg.sender] >= _value);
             balanceOf[msg.sender] = balanceOf[msg.sender].sub(_value);
@@ -36,14 +36,14 @@ using SafeMath for uint256;
             return true;
         }
 
-
+        //function approve
         function approve(address _spender, uint256 _value) public returns (bool success) {
             allowance[msg.sender][_spender] = _value;
             emit Approval(msg.sender, _spender, _value);
             return true;
         }
 
-
+        //function transferFrom
         function transferFrom(address _from, address _to, uint256 _value) public returns (bool success) {
             require(_value <= balanceOf[_from]);
             require(_value <= allowance[_from][msg.sender]);
@@ -54,7 +54,7 @@ using SafeMath for uint256;
             return true;
         }
 
-
+        //function mintToken
         function mintToken(uint256 _amount) public onlyOwner returns (bool success) {
             totalSupply = totalSupply.add(_amount);
             balanceOf[msg.sender] = balanceOf[msg.sender].add(_amount);
