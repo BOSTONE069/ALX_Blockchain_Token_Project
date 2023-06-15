@@ -9,7 +9,7 @@ const tokenAddress = '0x8D5FFFB23e9D70F2DE92c154735022F468e6Bd16';
 const addressToCheck = '0xe4F509254fe8e5fa65E620De7525890421Ad003f';
 
 // Create a new contract object using the ABI and address
-const tokenContract = new web3.eth.Contract(tokenABI, tokenAddress);
+const tokenContract = new web3.eth.Con tract(tokenABI, tokenAddress);
 
 // Call the balanceOf function to get the balance of the address
 tokenContract.methods.balanceOf(addressToCheck).call()
